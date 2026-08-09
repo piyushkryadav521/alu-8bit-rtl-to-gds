@@ -1,0 +1,6 @@
+Subprocess had a non-zero exit.
+Last 2 line(s):
+yosys: invalid option -- 'y'
+Run 'yosys -h' for help.
+
+Full log file: 'openlane/runs/RUN_2026-08-09_18-02-35/05-yosys-jsonheader/yosys-jsonheader.log'

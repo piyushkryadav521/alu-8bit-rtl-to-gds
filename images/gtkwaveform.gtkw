@@ -1,0 +1,29 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Sun Aug  9 12:40:03 2026
+[*]
+[dumpfile] "/home/piyush/asic_projects/alu_8bit/alu.vcd"
+[dumpfile_mtime] "Sun Aug  9 12:37:05 2026"
+[dumpfile_size] 5951
+[savefile] "/home/piyush/asic_projects/alu_8bit/images/gtkwaveform.gtkw"
+[timestart] 0
+[size] 1214 721
+[pos] -51 -51
+*-14.100000 564 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] alu_tb.
+[sst_width] 278
+[signals_width] 147
+[sst_expanded] 1
+[sst_vpaned_height] 199
+@22
+alu_tb.A[7:0]
+alu_tb.B[7:0]
+@28
+alu_tb.carry
+alu_tb.opcode[2:0]
+@22
+alu_tb.result[7:0]
+@28
+alu_tb.zero
+[pattern_trace] 1
+[pattern_trace] 0

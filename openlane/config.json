@@ -1,0 +1,7 @@
+{
+    "DESIGN_NAME": "alu_8bit",
+    "VERILOG_FILES": [
+        "dir::alu.v"
+    ],
+    "CLOCK_PORT": null
+}
