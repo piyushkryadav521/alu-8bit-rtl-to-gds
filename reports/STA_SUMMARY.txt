@@ -1,0 +1,40 @@
+cat > reports/STA_SUMMARY.txt <<'EOF'
+8-bit ALU — Static Timing Analysis Summary
+============================================
+
+Technology:
+SKY130A / sky130_fd_sc_hd
+
+Library:
+sky130_fd_sc_hd__tt_025C_1v80.lib
+
+Tool:
+OpenSTA 3.1.0
+
+Design:
+alu_8bit
+
+Timing Constraint:
+Virtual clock = 10 ns (100 MHz)
+
+Input delay:
+0.5 ns
+
+Output delay:
+0.5 ns
+
+Worst Slack:
++6.53 ns
+
+Timing Status:
+MET / PASS
+
+Critical path observed:
+A[1] -> zero
+
+Additional path:
+A[0] -> result[0]
+
+Additional path slack:
++1.06 ns
+EOF

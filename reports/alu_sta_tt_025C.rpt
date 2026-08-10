@@ -1,0 +1,84 @@
+OpenSTA 3.1.0 60b59a15bd Copyright (c) 2026, Parallax Software, Inc.
+License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
+
+This is free software, and you are free to change and redistribute it
+under certain conditions; type `show_copying' for details. 
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
+Warning 168: alu_sta.tcl line 1, unknown field nets.
+Startpoint: A[1] (input port clocked by virtual_clk)
+Endpoint: zero (output port clocked by virtual_clk)
+Path Group: virtual_clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock virtual_clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.50    0.50 v input external delay
+     8    0.02    0.00    0.00    0.50 v A[1] (in)
+                  0.00    0.00    0.50 v _260_/A (sky130_fd_sc_hd__xnor2_1)
+     3    0.01    0.21    0.19    0.69 ^ _260_/Y (sky130_fd_sc_hd__xnor2_1)
+                  0.21    0.00    0.69 ^ _280_/A1 (sky130_fd_sc_hd__a21oi_1)
+     2    0.01    0.10    0.13    0.82 v _280_/Y (sky130_fd_sc_hd__a21oi_1)
+                  0.10    0.00    0.82 v _294_/C (sky130_fd_sc_hd__maj3_1)
+     2    0.01    0.09    0.39    1.21 v _294_/X (sky130_fd_sc_hd__maj3_1)
+                  0.09    0.00    1.21 v _306_/C (sky130_fd_sc_hd__maj3_1)
+     2    0.01    0.09    0.39    1.61 v _306_/X (sky130_fd_sc_hd__maj3_1)
+                  0.09    0.00    1.61 v _322_/C (sky130_fd_sc_hd__maj3_1)
+     3    0.01    0.10    0.40    2.01 v _322_/X (sky130_fd_sc_hd__maj3_1)
+                  0.10    0.00    2.01 v _338_/A2 (sky130_fd_sc_hd__o21a_1)
+     3    0.01    0.05    0.20    2.21 v _338_/X (sky130_fd_sc_hd__o21a_1)
+                  0.05    0.00    2.21 v _341_/A3 (sky130_fd_sc_hd__o311ai_0)
+     1    0.00    0.27    0.26    2.47 ^ _341_/Y (sky130_fd_sc_hd__o311ai_0)
+                  0.27    0.00    2.47 ^ _350_/C1 (sky130_fd_sc_hd__o211ai_1)
+     2    0.00    0.09    0.13    2.59 v _350_/Y (sky130_fd_sc_hd__o211ai_1)
+                  0.09    0.00    2.59 v _368_/C (sky130_fd_sc_hd__nor4_1)
+     1    0.00    0.18    0.20    2.79 ^ _368_/Y (sky130_fd_sc_hd__nor4_1)
+                  0.18    0.00    2.79 ^ _369_/D (sky130_fd_sc_hd__and4_1)
+     1    0.00    0.03    0.18    2.97 ^ _369_/X (sky130_fd_sc_hd__and4_1)
+                  0.03    0.00    2.97 ^ zero (out)
+                                  2.97   data arrival time
+
+                  0.00   10.00   10.00   clock virtual_clk (rise edge)
+                          0.00   10.00   clock network delay (ideal)
+                          0.00   10.00   clock reconvergence pessimism
+                         -0.50    9.50   output external delay
+                                  9.50   data required time
+-----------------------------------------------------------------------------
+                                  9.50   data required time
+                                 -2.97   data arrival time
+-----------------------------------------------------------------------------
+                                  6.53   slack (MET)
+
+
+Startpoint: A[0] (input port clocked by virtual_clk)
+Endpoint: result[0] (output port clocked by virtual_clk)
+Path Group: virtual_clk
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock virtual_clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.50    0.50 ^ input external delay
+   0.00    0.50 ^ A[0] (in)
+   0.06    0.56 v _258_/Y (sky130_fd_sc_hd__o211ai_1)
+   0.00    0.56 v result[0] (out)
+           0.56   data arrival time
+
+   0.00    0.00   clock virtual_clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00   clock reconvergence pessimism
+  -0.50   -0.50   output external delay
+          -0.50   data required time
+---------------------------------------------------------
+          -0.50   data required time
+          -0.56   data arrival time
+---------------------------------------------------------
+           1.06   slack (MET)
+
+
+worst slack max 6.53
+tns max 0.00
+% invalid command name "less"
+% 
