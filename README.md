@@ -508,7 +508,7 @@ Future improvements for this project include:
 
 **Piyush Kumar Yadav**
 
-ECE Engineer | RTL Design | Digital VLSI | Physical Design Enthusiast
+RTL Design — ASIC — VLSI Engineer
 
 ---
 
