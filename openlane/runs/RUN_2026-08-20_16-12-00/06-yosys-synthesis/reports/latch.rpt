@@ -1,0 +1,4 @@
+
+15. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\alu_8bit.\result' from process `\alu_8bit.$proc$/work/openlane/alu.v:12$1'.
+No latch inferred for signal `\alu_8bit.\carry' from process `\alu_8bit.$proc$/work/openlane/alu.v:12$1'.

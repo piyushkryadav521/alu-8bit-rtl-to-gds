@@ -1,0 +1,77 @@
+Reading timing models for corner nom_tt_025C_1v80…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/root/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading timing models for corner nom_ff_n40C_1v95…
+Reading timing library for the 'nom_ff_n40C_1v95' corner at '/root/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib'…
+Reading timing models for corner nom_ss_100C_1v60…
+Reading timing library for the 'nom_ss_100C_1v60' corner at '/root/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+Reading OpenROAD database at '/work/openlane/runs/RUN_2026-08-20_16-12-00/27-openroad-globalplacement/alu_8bit.odb'…
+Reading design constraints file at '/nix/store/ss2cw3sxbrwwx9jl0rrppbw4kgcmgi2n-python3-3.11.9-env/lib/python3.11/site-packages/openlane/scripts/base.sdc'…
+[WARNING STA-0366] port '__VIRTUAL_CLK__' not found.
+[INFO] Using clock __VIRTUAL_CLK__…
+[INFO] Setting output delay to: 2
+[INFO] Setting input delay to: 2
+[WARNING STA-0366] port '__VIRTUAL_CLK__' not found.
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[WARNING STA-0419] transition time can not be specified for virtual clocks.
+[INFO] Setting timing derate to: 5%
+[WARNING STA-0450] virtual clock __VIRTUAL_CLK__ can not be propagated.
+[INFO] Setting RC values…
+[INFO RSZ-0027] Inserted 19 input buffers.
+[INFO RSZ-0028] Inserted 10 output buffers.
+[INFO RSZ-0058] Using max wire length 6335um.
+Iteration | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------
+        0 |       0 |       0 |             0 |       179
+       10 |       9 |       0 |             0 |       169
+       20 |      19 |       0 |             0 |       159
+       30 |      28 |       0 |             0 |       149
+       40 |      38 |       0 |             0 |       139
+       50 |      48 |       0 |             0 |       129
+       60 |      58 |       0 |             0 |       119
+       70 |      68 |       0 |             0 |       109
+       80 |      78 |       0 |             0 |        99
+       90 |      87 |       0 |             0 |        89
+      100 |      95 |       0 |             0 |        79
+      110 |     103 |       0 |             0 |        69
+      120 |     110 |       0 |             0 |        59
+      130 |     117 |       0 |             0 |        49
+      140 |     123 |       0 |             0 |        39
+      150 |     132 |       0 |             0 |        29
+      160 |     139 |       3 |             3 |        19
+      170 |     140 |       3 |             3 |         9
+    final |     140 |       3 |             3 |         0
+---------------------------------------------------------
+[INFO RSZ-0035] Found 3 fanout violations.
+[INFO RSZ-0038] Inserted 3 buffers in 3 nets.
+[INFO RSZ-0039] Resized 140 instances.
+Placement Analysis
+---------------------------------
+total displacement        405.8 u
+average displacement        1.8 u
+max displacement           11.3 u
+original HPWL            2293.9 u
+legalized HPWL           2618.1 u
+delta HPWL                   14 %
+
+[INFO DPL-0020] Mirrored 73 instances
+[INFO DPL-0021] HPWL before            2618.1 u
+[INFO DPL-0022] HPWL after             2530.5 u
+[INFO DPL-0023] HPWL delta               -3.3 %
+[INFO] Setting RC values…
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+Updating metrics…
+Cell type report:                       Count       Area
+  Fill cell                                34     127.62
+  Tap cell                                 28      35.03
+  Timing Repair Buffer                     32     168.91
+  Inverter                                  3      11.26
+  Multi-Input combinational cell          128     972.18
+  Total                                   225    1315.01
+Writing OpenROAD database to '/work/openlane/runs/RUN_2026-08-20_16-12-00/31-openroad-repairdesignpostgpl/alu_8bit.odb'…
+Writing netlist to '/work/openlane/runs/RUN_2026-08-20_16-12-00/31-openroad-repairdesignpostgpl/alu_8bit.nl.v'…
+Writing powered netlist to '/work/openlane/runs/RUN_2026-08-20_16-12-00/31-openroad-repairdesignpostgpl/alu_8bit.pnl.v'…
+Writing layout to '/work/openlane/runs/RUN_2026-08-20_16-12-00/31-openroad-repairdesignpostgpl/alu_8bit.def'…
+Writing timing constraints to '/work/openlane/runs/RUN_2026-08-20_16-12-00/31-openroad-repairdesignpostgpl/alu_8bit.sdc'…
